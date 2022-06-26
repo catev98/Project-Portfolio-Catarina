@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Work</title>
+    <meta
+      name="description"
+      content="Catarina developed four projects using HTML, CSS, JavaScript and React"
+    />
+    <title>Catarina Vicente´s Work</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,33 +32,32 @@
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
-  <body>
-    <div class="container">
+ <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
-            alt="logo"
+            alt="Catarina logo"
             class="logo d-none d-md-block"
           />
           <img
             src="images/small logo.png"
-            alt="logo small"
+            alt="Catarina logo small"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Catarina">About</a>
           </li>
           <li class="active">
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Catarina´s Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Catarina">Contact</a>
           </li>
         </ul>
       </nav>
@@ -66,7 +69,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/yogurt project.png"
-              alt=""
+              alt="yogurt projects"
               class="img-fluid rounded"
             />
             <h3 class="text-center">Yogurt Project</h3>
@@ -75,7 +78,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/weather app.png"
-              alt=""
+              alt="weather project"
               class="img-fluid rounded"
             />
             <h3 class="text-center">Weather Project</h3>
@@ -88,7 +91,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/dictionary app.png"
-              alt=""
+              alt="dictionary app"
               class="img-fluid rounded"
             />
             <h3 class="text-center">Dictionary App</h3>
@@ -99,7 +102,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/translation app.png"
-              alt=""
+              alt="translation app"
               class="img-fluid rounded"
             />
             <h3 class="text-center">Translation App</h3>
@@ -114,26 +117,45 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let´s work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:vicente.bcatarina@gmail.com" class="email-link"
+          <a
+            href="mailto:vicente.bcatarina@gmail.com"
+            class="email-link"
+            title="Email Catarina"
             >vicente.bcatarina@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/catev98?tab=repositories" target="_blank">
+          <a
+            href="https://github.com/catev98?tab=repositories"
+            target="_blank"
+            title="Catarina´s GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/catebvicente/" target="_blank">
+          <a
+            href="https://www.instagram.com/catebvicente/"
+            target="_blank"
+            title="Catarina´s Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
+         <p class="text-center mt-5">
+          This project was coded by Catarina Vicente, and it is
+          <a
+            href="https://github.com/catev98/Project-Portfolio-Catarina"
+            target="github project"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
   </body>
